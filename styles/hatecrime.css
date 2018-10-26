@@ -1,0 +1,45 @@
+
+/*css: here we go*/
+
+html {
+    font-size: 100%; /* keep */
+    box-sizing: border-box; /* keep */
+}
+article {
+  max-width: 900px; /* keep */
+  margin: auto;
+  padding-left: 5rem;
+  padding-right:5rem;
+  font-size:1.25rem;
+  }
+body {
+    font-family:"Arial", "Verdana", sans-serif;
+    background: #9bcd9b; /* keep */
+    color: #333; /* keep */
+    /* keep */
+}
+h1 {
+    font-family:"Palatino", "Big Caslon", serif;
+    font-size:3rem;
+}
+p {
+    padding-top:1rem;
+    padding-bottom: 1rem;
+
+}
+
+/* Media query below*/
+
+
+@media screen and (max-width: 800px) {
+article {
+    padding-left:1rem;
+    padding-right:1rem;
+    font-size:.75rem;
+  }
+h1 {
+      font-size:2rem;
+}
+body{
+    margin:0;
+}
