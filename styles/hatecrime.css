@@ -32,14 +32,15 @@ p {
 
 
 @media screen and (max-width: 800px) {
-article {
+  article {
     padding-left:1rem;
     padding-right:1rem;
     font-size:.75rem;
   }
-h1 {
+  h1 {
       font-size:2rem;
-}
-body{
+    }
+  body{
     margin:0;
+  }
 }
